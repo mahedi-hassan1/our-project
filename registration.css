@@ -1,0 +1,78 @@
+
+body{
+	background:url(reg-background3.jpg);
+	background-repeat:no-repeat;
+	background-image:100%;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+
+
+
+.log-in {
+    background: #1a2831;
+    width: 500px;
+    height: 850px;
+    color: green;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+	padding: 70px 40px;
+}
+
+
+.log-in h2 {
+    padding: 0px 0px 30px;
+    text-align: center;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.log-in h3 {
+    margin: 0px;
+    line-height: 35px;
+}
+
+.log-in input {
+    width: 100%;
+    height: 25px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+
+
+
+.log-in input[type="button"] {
+    outline: none;
+    height: 25px;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+	margin-bottom:20px;
+	background:black;
+	color:tomato;
+}
+
+.log-in a {
+    text-decoration:;
+    color: white;
+    line-height: 30px;
+    font-family: arial;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+

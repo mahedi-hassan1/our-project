@@ -1,0 +1,596 @@
+
+
+
+.container{
+	width:1030px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+*{margin:0px;padding:0px;}
+
+.logo {
+  width: 800px;
+  text-transform: uppercase;
+  line-height: 17px;
+}
+h1 {
+    color: #37b988;
+    /*! padding: 10; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logo h2 {
+  color: orange;
+  font-size: 30px;
+  /*! line-height: 11px; */
+  margin-bottom: 25px;
+}
+
+/* Inline #4 | file:///G:/Part-time-job.html */
+
+.barmenu {
+  width: 100%;
+  
+  list-style: none;
+}
+
+.barmenu ul {
+  list-style: none;
+  left: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  text-transform: uppercase;
+}
+
+.barmenu ul li {
+  padding: 8px;
+  float: left;
+  margin-right: 10px;
+}
+
+.barmenu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.barmenu li:hover{
+	background:tomato;
+	color:white;
+	transition:0.5s;
+	border-radius:5px;
+	cursor:pointer;
+	margin-left:15px;
+}
+
+
+
+
+.barmenu2 {
+  overflow: hidden;
+  width: 20%;
+  float: right;
+  transform: translateY(0%);
+}
+.barmenubg {
+    background: black;
+    margin: 0px;
+    padding: 12px;
+    color: white;
+}
+
+
+.text2 {
+    float: right;
+    text-transform: uppercase;
+    width: 17%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid tan;
+    transform:;
+    margin-right: -197px;
+    position: ;
+    transform: translateX(-100%);
+    margin-top: -30px;
+}
+
+.text2:hover{
+	color:tomato;
+	cursor:pointer;
+}
+
+
+
+.textbg {
+    color: white;
+    background: #4a4a68;
+}
+
+
+
+.text {
+    width: 100%;
+	margin-top: 25px;
+	overflow:hidden;
+	margin-bottom: 30px;
+}
+.text h2 {
+    width: 170px;
+    text-transform: uppercase;
+	font-family: arial;
+	font-size: 25;
+
+	animation:text;
+	animation-duration:2s;
+	animation-direction:alternate;
+}
+
+@keyframes text{
+	from{margin-left:-170px}
+	to{margin-left:0px}
+
+}
+
+
+.text1 {
+    float: right;
+    text-transform: uppercase;
+    width: 17%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid tan;
+	margin-top: -82px;
+}
+
+.text1:hover{
+	color:tomato;
+	cursor:pointer;
+}
+
+
+
+.headerimg{
+	background:url(https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=beautiful-calm-clouds-206359.jpg&fm=jpg);
+	padding: 25px 0px;
+	margin-bottom:30px;
+}
+.quotes {
+    width: 400px;
+}
+
+.quotes h1 {
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.quotes p {
+    width: 250px;
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-family: arial;
+}
+button {
+    padding: 10px;
+    background: tomato;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover{
+	background:gray;
+	color:white;
+	transition:0.5s;
+	cursor:pointer;
+}
+
+
+.submenu ul {
+    position: absolute;
+    width: 120px;
+   
+    left: 50%;
+    transform: translateX(-368%);
+    top: 136px;
+    background: #000;
+    display: none;
+}
+
+.barmenu li:hover .submenu ul{
+	display:block;
+	cursor:pointer;
+}
+
+.row1 td {
+    border: 0px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 80px 0px;
+    text-transform: uppercase;
+    background: #464677;
+    color: white;
+	font-size: 25px;
+	font-family: arial;
+}
+.jobcatagorey {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.tablebg {
+    background: #f7f4f4;
+}
+
+.row1 td:hover {
+    box-shadow: 0px 0px 15px black;
+    transition: 0.5s;
+    cursor:pointer;
+    background: green;
+}
+
+
+/* work_with_us*/
+
+
+.left {
+    float: left;
+    width: 500px;
+    padding: 0px 25px;
+}
+
+.left img {
+    max-width: 500px;
+}
+
+.right {
+    width: 470px;
+    float: right;
+}
+
+.right h2 {
+    text-transform: uppercase;
+    font-weight: ;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.right h2::before {
+    content: "";
+    width: 23px;
+    position: absolute;
+    background: green;
+    border: 2px solid green;
+}
+
+
+
+
+/* Footer */
+
+.lastpartWrap {
+    background: black;
+    color: white;
+    padding: 70px 0px 30px;
+}
+
+.about_us {
+    width: 250px;
+    padding: 20;
+    float: left;
+	position:relative;
+}
+
+.about_us h4 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: ;
+    margin-bottom: 20px;
+}
+
+.contact_us {
+    width: 250px;
+    padding: 20px;
+    float: left;
+}
+
+.contact_us h4 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.address {
+    margin-bottom: 15px;
+}
+
+.address .fas.fa-map {
+    font-size: 20px;
+    padding: ;
+    margin-top: 8px;
+    float: left;
+    
+    margin-right: 12px;
+}
+
+
+.phone01 {
+    margin-bottom: 10px;
+}
+
+
+.phone01 .fas.fa-phone-square-alt {
+    font-size: 20px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 12px;
+}
+
+
+.email01 .fas.fa-at {
+    float: left;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-right: 12px;
+}
+
+
+
+
+
+
+
+.useful_link {
+    width: 250px;
+    padding: 20px;
+    float: left;
+}
+.useful_link h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.useful_link span {
+    float: left;
+    padding: 6px;
+    width: 150px;
+}
+
+.recent_post {
+    width: 120px;
+    float: left;
+    padding: 20;
+}
+.recent_post h4 {
+    font-size: 25px;
+}
+.date {
+    margin: 15px 0px;
+    border: 1px solid;
+    width: 100;
+}
+.date h3 {
+    font-size: 25;
+    margin-left: 10px;
+}
+.date p {
+    margin-left: 10px;
+}
+
+.info h4 {
+    font-size: 20px;
+    font-family: arial;
+    margin-bottom: 10px;
+}
+
+
+.footer-icon {
+    width: 200px;
+    padding: 20;
+    font-size: 20px;
+    margin-top: 155px;
+    float: left;
+    position: absolute;
+}
+
+
+.footer-icon .fab.fa-facebook {
+    margin-right: 10px;
+}
+.footer-icon .fab.fa-instagram{
+    margin-right: 10px;
+}
+.footer-icon .fab.fa-twitter {
+    margin-right: 10px;
+}
+.footer-icon .fab.linkedin-in {
+    margin-right: 10px;
+}
+
+
+hr {
+    border: 1px dashed;
+}
+
+
+.last-footer {
+    width: 600px;
+    font-size: 20;
+    float: left;
+	margin-top:20px;
+}
+
+.last-footer2 {
+    width: 400px;
+    float: left;
+	margin-top:20px;
+   
+}
+
+.last-footer2 ul {
+    list-style: none;
+    
+}
+
+
+.last-footer2 ul li {
+    float: left;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+
+
+
+
+/*team-member*/
+
+
+.work {
+    padding: 120px 0px;
+}
+.work-with-us {
+    width: 100%;
+    text-align: center;
+	    margin-bottom: 50;
+}
+.work-with-us h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.work-with-us h2::after {
+    content: "";
+    width: 103px;
+    border: 1px solid;
+    
+   
+    color: green;
+    position: absolute;
+    border: 3px solid green;
+   
+    left: 47%;
+    transform: translateY(700%);
+}
+
+.work-with-us p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.team-member {
+    width: 250px;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	position: relative;
+	left: 96px;
+}
+.team-member img {
+    width: 250px;
+    margin-bottom: 10px;
+}	
+.team-member img:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.team-member h5 {
+    text-transform: uppercase;
+    font-size: 15;
+}
+
+.team-member:nth-child(5) {
+    margin-left: 160px;
+}
+
+/* work-with-us,icon*/
+
+.icon {
+    position: absolute;
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 22px;
+	
+
+}
+
+.icon .fab.fa-facebook {
+    color: #3b5998;
+    opacity: 0;
+    background: white;
+    border-radius: 8px;
+    padding: 3px;
+}
+.icon .fab.fa-instagram {
+    color: #cd486b;
+    opacity: 0;
+    background: white;
+    border-radius: 6px;
+    padding: 3px;
+}
+.icon .fab.fa-twitter {
+    color: #00acee;
+    opacity: 0;
+    background: white;
+    border-radius: 8px;
+    padding: 3px;
+}
+.icon .fab.fa-linkedin-in {
+    color: #0072b1;
+    opacity: 0;
+    background: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.team-member:hover .icon .fab.fa-facebook{
+	opacity:1;
+	transition:0.8s;
+	transform:translateY(15px);
+	
+}
+
+.team-member:hover .icon .fab.fa-twitter{
+	opacity:1;
+	transition:0.6s;
+	transform:translateY(15px);
+	
+}
+
+.team-member:hover .icon .fab.fa-instagram{
+	opacity:1;
+	transition:0.4s;
+	transform:translateY(15px);
+	
+}
+
+.team-member:hover .icon .fab.fa-linkedin-in{
+	opacity:1;
+	transition:0.2s;
+	transform:translateY(15px);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

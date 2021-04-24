@@ -1,0 +1,470 @@
+
+
+.container{
+	width:1100px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Searchbar*/
+
+
+.search {
+    width: 100%;
+    background: #067b23;
+    text-align: center;
+    margin-top: 15px;
+    height: 36px;
+}
+
+.search input {
+    
+    width: 500px;
+    height: 30px;
+	margin-top: 3px;
+	position:relative;
+    
+}
+
+
+
+/*Select*/
+
+.searchoption {
+    overflow: hidden;
+    margin-right: ;
+    position: absolute;
+    right: ;
+    transform: ;
+    margin-left: -161px;
+    margin-top: 3;
+    padding: 7px;
+}
+
+
+/*Button*/
+
+
+.searchbutton {
+    padding: 7px;
+    background: black;
+    border: none;
+    color: white;
+    font-weight: 700;
+   overflow:hidden;
+    position: absolute;
+    margin-left: -60px;
+    top: 18;
+    cursor: pointer;
+}
+
+
+/*Barmenu*/
+
+
+
+
+.barmenu {
+  width: 100%;
+  float: right;
+  list-style: none;
+  left: -56px;
+  position: relative;
+}
+
+.barmenu ul {
+    list-style: none;
+    
+    
+    padding-left: 0px;
+    text-transform: uppercase;
+    margin: 0px;
+    float: right;
+    cursor:pointer;
+    transform: translateY(-102%);
+    color: white;
+	overflow: ;
+}
+
+.barmenu ul li {
+  padding: 8px;
+  float: left;
+  margin-right: 10px;
+}
+
+
+.barmenu ul li:hover {
+    background: tomato;
+	border-radius:8px;
+}
+
+
+
+.barmenu ul li:first-child {
+    background: tomato;
+	border-radius:8px;
+}
+
+
+.barmenu ul ul {
+    position: absolute;
+    float: left;
+    width: 130px;
+    transform: translateX(-7%);
+    display: none;
+    background: green;
+}
+
+.barmenu ul ul li:first-child {
+    background: none;
+}
+
+
+
+.barmenu ul ul li:hover{
+	margin-left:10px;
+	transition:0.5s
+}
+
+.barmenu ul li:hover>ul{
+	display:block;
+}
+
+.barmenu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.barmenu ul ul ul {
+   
+    transform: translateX(76%);
+    top: 0px;
+}
+
+
+
+/*section2-findjob*/
+
+
+#background {
+    background: #f2f2f2;
+    padding: 20px;
+    width: 640px;
+    margin-left: 215px;
+    border: 1px solid green;
+	margin-bottom:20px;
+}
+
+
+
+
+
+.consumer {
+    line-height: 5px;
+    width: 641px;
+    overflow: hidden;
+}
+
+.consumer .fas.fa-user {
+    color: green;
+}
+
+.consumer .fas.fa-briefcase {
+    color: green;
+}
+
+.consumer .fas.fa-people-carry {
+    color: green;
+}
+
+.consumer .fas.fa-money-check-alt {
+    color: green;
+}
+
+.consumer .fas.fa-map-marker-alt {
+    color: green;
+}
+
+
+.message {
+    float: right;
+	top: 0;
+	transform: translatey(-497%);
+	overflow: hidden;
+	margin-left: 15px;
+}
+
+
+
+.message button {
+    background: green;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+
+.message button:hover{
+	background:tomato;
+	transition:0.3s;
+	cursor:pointer;
+}
+
+
+
+.phone {
+    float: right;
+	transform: translateY(-497%);
+	overflow: hidden;
+}
+
+.phone button {
+    background: green;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+
+.phone button:hover{
+	background:tomato;
+	transition:0.3s;
+	cursor:pointer;
+}
+
+
+.image {
+    width: 641px;
+    height: 360px;
+    margin-top: -15px;
+    overflow: hidden;
+    background: ;
+    height: 180px;
+}
+
+
+.image img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+/*changing_page*/
+
+
+#changing_page {
+    text-align: center;
+	margin-bottom:20px;
+}
+
+#changing_page span {
+    
+    background: green;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+#changing_page span:hover{
+	background:tomato;
+	transition:0.3s
+}
+
+
+
+/* Footer */
+
+
+
+.lastpartWrap {
+    background: black;
+    color: white;
+    padding: 70px 0px 30px;
+}
+
+.about_us {
+    width: 250px;
+    padding: 50;
+    float: left;
+    position: relative;
+}
+
+.about_us h4 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: ;
+    margin-bottom: 20px;
+}
+
+.contact_us {
+    width: 250px;
+    padding: 50px;
+    float: left;
+}
+
+.contact_us h4 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.address {
+    margin-bottom: 15px;
+}
+
+.address .fas.fa-map {
+    font-size: 20px;
+    padding: ;
+    margin-top: 8px;
+    float: left;
+    
+    margin-right: 12px;
+}
+
+
+.phone01 {
+    margin-bottom: 10px;
+}
+
+
+.phone01 .fas.fa-phone-square-alt {
+    font-size: 20px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 12px;
+}
+
+
+.email01 .fas.fa-at {
+    float: left;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-right: 12px;
+}
+
+
+
+
+
+
+
+.useful_link {
+    width: 250px;
+    padding: 50px;
+    float: left;
+}
+.useful_link h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.useful_link span {
+    float: left;
+    padding: 6px;
+    width: 150px;
+}
+
+.recent_post {
+    width: 120px;
+    float: left;
+    padding: 20;
+}
+.recent_post h4 {
+    font-size: 25px;
+}
+.date {
+    margin: 15px 0px;
+    border: 1px solid;
+    width: 100;
+}
+.date h3 {
+    font-size: 25;
+    margin-left: 10px;
+}
+.date p {
+    margin-left: 10px;
+}
+
+.info h4 {
+    font-size: 20px;
+    font-family: arial;
+    margin-bottom: 10px;
+}
+
+
+.footer-icon {
+    width: 200px;
+    padding: 50;
+    font-size: 20px;
+    margin-top: 200px;
+    float: left;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+.footer-icon .fab.fa-facebook {
+    margin-right: 10px;
+}
+.footer-icon .fab.fa-instagram{
+    margin-right: 10px;
+}
+.footer-icon .fab.fa-twitter {
+    margin-right: 10px;
+}
+.footer-icon .fab.linkedin-in {
+    margin-right: 10px;
+}
+
+
+hr {
+    border: 1px dashed;
+}
+
+
+.last-footer {
+    width: 600px;
+    font-size: 20;
+    float: left;
+	margin-top:20px;
+}
+
+.last-footer2 {
+    width: 400px;
+    float: left;
+	margin-top:20px;
+   
+}
+
+.last-footer2 ul {
+    list-style: none;
+    
+}
+
+
+.last-footer2 ul li {
+    float: left;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
